@@ -82,58 +82,57 @@
     <section class="container-fluid bg-yellow">
         <div class="row">
             <!-- Versión desktop-->
-            <div class="col-lg-10 border-white">
+            <div class="col-lg-10 border-white hidden-xs">
                 <div class="row">
                     <div class="col-lg-4 col-lg-offset-1 hidden-xs">
                         <img src="assets/images/iPhone6Plus.png" alt="imagen iPhone" class="cellimg img-responsive center-block">
                     </div>
-                    <div class="col-lg-4 col-lg-offset-1 paragraph-one ">
+                    <div class="col-lg-4 col-lg-offset-1 paragraph-one hidden-xs">
                         <h3>Descarga la nueva app</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, dicta harum dolorem voluptates
-                            impedit architecto consectetur aut quam doloremque nemo excepturi illum perspiciatis necessitatibus,
-                            dolor provident repudiandae repellat neque nobis?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestiae adipisci delectus dolor optio
-                            minus, porro, incidunt facere maxime perspiciatis sunt debitis temporibus vitae? Amet consequuntur
-                            officiis nostrum dolores facilis?</p>
+                        <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+                        <p>Con sólo tocar un botón un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eligendi itaque sunt dolorem ducimus eius dolores eaque.</p>
                     </div>
                 </div>
             </div>
-            <!-- versión responsive-->
-            <div class="col-lg-10 border-white visble-xs hidden-lg">
+            <!-- versión mobile-->
+            <div class="col-lg-10 border-white-xs visible-xs hidden-lg">
                 <div class="row">
-                    <div class="col-lg-4 col-lg-offset-1">
-                        <img src="assets/images/iPhone6Plus.png" alt="imagen iPhone" class="cellimg img-responsive center-block">
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-1 paragraph-one ">
-                        <h3>Descarga la nueva app</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, dicta harum dolorem voluptates
-                            impedit architecto consectetur aut quam doloremque nemo excepturi illum perspiciatis necessitatibus,
-                            dolor provident repudiandae repellat neque nobis?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestiae adipisci delectus dolor optio
-                            minus, porro, incidunt facere maxime perspiciatis sunt debitis temporibus vitae? Amet consequuntur
-                            officiis nostrum dolores facilis?</p>
+                    <div class="col-lg-4 col-lg-offset-1 paragraph-one hidden-lg">
+                        <h3 class="text-center">Descarga la nueva app</h3>
+                        <img src="assets/images/iPhone6Plus.png" alt="imagen iPhone" class="cellimg-xs img-responsive center-block margin-bottom">
                     </div>
                 </div>
             </div>
+            <p class="text-center h4 hidden-lg">Llega a tu destino aún más rápido</p>
         </div>
     </section>
     <!--Sección conduce cuando quieras fondo fotográfico-->
     <section class="container-fluid bgimage2">
         <div class="row">
-            <div class="col-lg-4 pull-right black-square">
+            <!-- versión desktop-->
+            <div class="col-lg-4 pull-right black-square hidden-xs">
                 <div class="margin">
                     <h3>Conduce cuando quieras</h3>
-                    <p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
+                    <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
                     <button class="btn btn-default btn-no-border btn-yellow">Conviértete en conductor</button>
                 </div>
-                
+            </div>
+            <!-- versión mobile-->
+            <div class="col-lg-4 pull-right black-square visible-xs hidden-lg">
+                <div class="margin">
+                    <h3>Conduce cuando quieras</h3>
+                    <p class="font-size-xs">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+                    <button class="btn btn-default btn-no-border btn-yellow-xs">Conviértete en conductor</button>
+                </div>
             </div>
         </div>
     </section>
     <!--Sección tarifas-->
-    <section class="container-fluid bg-yellow">
+    <section class="container-fluid bg-yellow bg-yellow-map">
         <div class="row">
-            <div class="col-lg-4 col-lg-offset-1 paragraph-one">
+            <!-- versión desktop-->
+            <div class="col-lg-4 col-lg-offset-1 paragraph-one hidden-xs">
                 <h2>Tarifas</h2>
                 <p>Consulta las tarifas de LabCar aquí</p>
                 <div>
@@ -144,20 +143,41 @@
                 </div>
                 <button class="btn btn-default btn-no-border center-block margin-top">¡TRAZAR RUTA!</button>
             </div>
-            <!-- -->
-            <div class="col-lg-4 col-lg-offset-1  border-white-2">
+            <!--mapa-->
+            <div class="col-lg-4 col-lg-offset-1 paragraph-one border-white-2 hidden-xs">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img src="assets/images/iPhone6Plus.png" alt="imagen iPhone" class="cellimg img-responsive">
+                        <img src="assets/images/map.png" alt="imagen mapa" class="img-responsive">
                     </div>
                 </div>
-            </div>                                
+            </div>
+            <!-- versión mobile-->
+            <div class="col-lg-4 col-lg-offset-1 paragraph-one visible-xs hidden-lg">
+                    <h2>Tarifas</h2>
+                    <p>Consulta las tarifas de LabCar aquí</p>
+                    <div>
+                        <img src="assets/images/shape.png" alt="icon" class="icon"><input type="text" placeholder="Ingrese su punto de partida" class="input-xs">
+                    </div>
+                    <div>
+                        <img src="assets/images/shape2.png" alt="icon-s" class="icon"><input type="text" placeholder="Ingrese su destino" class="input-xs">
+                    </div>
+                    <button class="btn btn-default btn-no-border center-block margin-top">¡TRAZAR RUTA!</button>
+                </div>
+                <!--mapa-->
+                <div class="col-lg-4 col-lg-offset-1  border-white-2 visible-xs hidden-lg">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="assets/images/map.png" alt="imagen mapa" class="img-responsive">
+                        </div>
+                    </div>
+                </div>                                                
         </div>
     </section>
     <!--footer -->
     <footer class="container-fluid gb-gray">
         <div class="row">
-            <div class="col-lg-12">
+            <!--versión desktop -->
+            <div class="col-lg-12 hidden-xs">
                 <img src="assets/images/logoBlanco.png" alt="logo" class="margin-left margin-logo">
                 <div class="border-12 margin-left margin-right"></div>
                 <div class="row margin-top margin-bottom">
@@ -172,7 +192,7 @@
                         <li>Seguridad</li>
                     </ul>
                     </div>
-                    <div class="col-lg-2 col-lg-offset-1">
+                    <div class="col-lg-2 col-lg-offset-1 hidden-xs">
                         <ul class="style-list list-group">
                             <li>Oportunidades</li>
                             <li>Nuestra historia</li>
@@ -184,13 +204,13 @@
                             <li>Coders</li>
                         </ul>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 hidden-xs">
                         <img src="assets/images/appstore.png" alt="appstore" class="store middle margin-bottom">
                         <img src="assets/images/enBadgeWebGeneric.png" alt="playstore" class="store middle">
                     </div>               
                 </div>
-                <div class="row">
-                        <div class="border-bottom margin-left margin-right">
+                <div class="row hidden-xs">
+                        <div class="border-bottom pull-right text-right">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -199,8 +219,42 @@
                         </div>
                 </div>
                 <!--Copyright-->
-                <p class="text-left text-lg-left margin-left">© 2017 <strong> LabCar Technologies Inc.</strong></p>
+                <p class="text-left text-lg-left margin-left hidden-xs">© 2017 <strong> LabCar Technologies Inc.</strong></p>
             </div>
+            <!--versión mobile -->
+            <div class="col-lg-12 visible-xs hidden-lg">
+                    <img src="assets/images/logoBlanco.png" alt="logo" class="margin-left-xs margin-logo">
+                    <div class="border-12 margin-left margin-right-xs"></div>
+                    <div class="row margin-top margin-bottom">
+                        <div class="col-xs-2 col-xs-offset-3 margin-left-xs">
+                        <ul class="style-list list-group margin-left-xs">
+                            <li>Viaja</li>
+                            <li>Conduce</li>
+                            <li>Ciudades</li>
+                            <li>Entregas</li>
+                            <li>Cómo funciona</li>
+                            <li>Países</li>
+                            <li>Seguridad</li>
+                        </ul>
+                        </div>
+                        <div class="col-xs-6 col-xs-offset-3 visible-xs hidden-lg pull-right">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i class="fa fa-apple" aria-hidden="true"></i>
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-6 col-xs-offset-3 visible-xs hidden-lg">
+                            <img src="assets/images/appstore.png" alt="appstore" class="store middle margin-bottom pull-right">
+                            <img src="assets/images/enBadgeWebGeneric.png" alt="playstore" class="store middle pull-right">
+                        </div>               
+                    </div>
+                    <div class="row visible-xs hidden-lg">
+                            <div class="border-bottom margin-left-xs-2 margin-right-xs"></div>
+                    </div>
+                    <!--Copyright-->
+                    <p class="text-left text-lg-left margin-left visible-xs hidden-lg">© 2017 <strong> LabCar Technologies Inc.</strong></p>
+                </div>
         </div>
     </footer>
     

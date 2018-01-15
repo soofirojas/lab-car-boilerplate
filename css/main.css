@@ -69,8 +69,12 @@ hr {
     margin-left: 0;
 }
 
+.cellimg-xs {
+    height: 50vh;
+}
+
 .paragraph-one {
-    margin-top: 5%;
+    margin-top: 11%;
 }
 
 .new-app h2 {
@@ -88,6 +92,13 @@ hr {
     border-right: solid 1px #fff;
     border-bottom: solid 1px #fff;
 }
+.border-white-xs {
+    border: solid 1px #fff;
+    margin-top: 7rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 
 .btn-default {
     color: #000;
@@ -114,11 +125,24 @@ hr {
 
 .border-white-2 {
     border: solid 1px #fff;
-    margin-top: 7rem;  
+    margin-top: 11%;
+}
+
+body > section:nth-child(5) > div > div.col-lg-4.col-lg-offset-1.border-white-2 > div > div > img {
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 input {
     width: 30rem;
+    height: 7rem;
+    background: #F7B617;
+    outline: none;
+    border: none;
+}
+
+.input-xs {
+    width: 26rem;
     height: 7rem;
     background: #F7B617;
     outline: none;
@@ -197,9 +221,17 @@ h3 {
     margin-top: 5%;
 }
 
+.btn-yellow:hover {
+    background-color: rgb(184, 156, 0);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
 .icon {
     margin-right: 4%;
 }
+
 
 .margin-top {
     margin-top: 5%;
@@ -226,12 +258,24 @@ h3 {
     margin-left: 7%;
 }
 
+.margin-left-xs {
+    margin-left: 5%;
+}
+
+.margin-left-xs-2 {
+    margin-left: 7%;
+}
+
 .fa {
     margin-right: 1%;
     cursor: pointer;
 }
 
 .margin-right {
+    margin-right: 7%;
+}
+
+.margin-right-xs {
     margin-right: 7%;
 }
 
@@ -260,4 +304,64 @@ h3 {
     width: 70%;
     height: 4rem;
     font-size: 2rem;
+}
+
+body > section:nth-child(3) > div > div.col-lg-10.border-white.visble-xs.hidden-lg {
+    margin-top: 0;
+}
+
+.font-size-xs {
+    font-size: 1.6rem;
+}
+
+.btn-yellow-xs {
+    background-color: #F7B617;
+    color: #fff;
+    width: 70vw;
+    height: 4rem;
+    font-size: 1.6rem;
+    margin-top: 8%;
+}
+
+.btn-yellow-xs:hover {
+    background-color: rgb(184, 156, 0);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+body > footer > div > div.col-lg-12.visible-xs.hidden-lg > div.row.margin-top.margin-bottom > div.col-xs-6.col-xs-offset-3.visible-xs.hidden-lg.pull-right {
+    padding-right: 0;
+    margin-left: 2rem;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 575.99px) {
+    .gb-gray {
+        background-color: #2B2B2B;
+        height: 60vh;
+    }
+
+    .black-square {
+        background-color:rgba(0,0,0,0.6);
+        height: 50vh;
+    }
+
+    .bg-yellow {
+        background-color: #F7B617;
+        height: 90vh;
+    }
+
+    .bg-yellow-map {
+        background-color: #F7B617;
+        height: 95vh;
+    }
+
+    .bgimage2 {
+        background-image: url(../assets/images/conduce.jpg);
+        background-size: cover;
+        height:60vh;
+        background-position: 50% 50%;
+    }
 }
